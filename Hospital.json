@@ -1,0 +1,23 @@
+{
+    "Patients": [
+        {
+            "name": "JJ",
+            "age": "27",
+            "illness": "stubidty"
+        }
+    ],
+    "Doctors": [
+        {
+            "name": "Ahmed",
+            "specialty": "kidney",
+            "schedule": [
+                "11",
+                "12",
+                "1",
+                "2"
+            ],
+            "id": "2006"
+        }
+    ],
+    "Appointments": []
+}
