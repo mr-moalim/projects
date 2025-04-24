@@ -66,7 +66,7 @@ class HospitalSystem:
 
     def load(self):
         try:
-            with open("C:\\Users\\Yousef\\Desktop\\python\\Ahmed\\Hospital.json", "r") as f:
+            with open("Hospital.json", "r") as f:
                 data = json.load(f)
 
                 self.patients = []
@@ -100,7 +100,7 @@ class HospitalSystem:
             "Appointments": self.appointments
         }
 
-        with open("C:\\Users\\Yousef\\Desktop\\python\\Ahmed\\Hospital.json", "w") as f:
+        with open("Hospital.json", "w") as f:
             json.dump(all_info, f, indent=4)
 
 

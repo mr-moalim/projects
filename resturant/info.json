@@ -1,0 +1,34 @@
+{
+    "customer": [
+        {
+            "name": "Alice",
+            "id": "1"
+        },
+        {
+            "name": "Ahmed",
+            "id": "2006"
+        }
+    ],
+    "product": [
+        {
+            "name": "Keyboard",
+            "price": 49.99,
+            "stock": 0,
+            "id": "p01"
+        }
+    ],
+    "sales": [
+        {
+            "customer": "Alice",
+            "product": "Keyboard",
+            "quantity": 2,
+            "total": 99.98
+        },
+        {
+            "customer": "Ahmed",
+            "product": "Keyboard",
+            "quantity": 10,
+            "total": 499.90000000000003
+        }
+    ]
+}
